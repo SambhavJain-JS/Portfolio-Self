@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaHeart, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -7,22 +7,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/Shubham-Vyas',
+      url: 'https://github.com/SambhavJain-JS',
       icon: <FaGithub className="text-xl" />
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/shubham-vyas-3b3b37247/',
+      url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
       icon: <FaLinkedin className="text-xl" />
     },
     {
-      name: 'Instagram',
-      url: 'https://instagram.com/shubham_vyas_20',
-      icon: <FaInstagram className="text-xl" />
-    },
-    {
       name: 'Email',
-      url: 'mailto:shubhamvyas2004@gmail.com',
+      url: 'mailto:sambhav.jain@avantika.edu.in',
       icon: <FaEnvelope className="text-xl" />
     }
   ];
@@ -34,7 +29,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Shubham Vyas
+              Sambhav Jain
             </h3>
             <p className="text-gray-400 text-base leading-relaxed">
               Engineering student passionate about robotics, IoT, and innovative technology solutions

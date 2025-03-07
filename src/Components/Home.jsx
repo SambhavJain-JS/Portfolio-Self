@@ -1,27 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaRobot } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaRobot } from 'react-icons/fa';
 
 const Home = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/Shubham-Vyas',
+      url: 'https://github.com/SambhavJain-JS',
       icon: <FaGithub className="text-2xl" />
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/shubham-vyas-3b3b37247/',
+      url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
       icon: <FaLinkedin className="text-2xl" />
     },
     {
-      name: 'Instagram',
-      url: 'https://instagram.com/shubham_vyas_20',
-      icon: <FaInstagram className="text-2xl" />
-    },
-    {
       name: 'Email',
-      url: 'mailto:shubhamvyas2004@gmail.com',
+      url: 'mailto:sambhav.jain@avantika.edu.in',
       icon: <FaEnvelope className="text-2xl" />
     }
   ];
