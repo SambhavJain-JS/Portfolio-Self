@@ -5,45 +5,41 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Wall Painting Machine",
+      title: "Campus Ambassador",
       description: [
-        "Developed an automated wall painting machine using Arduino and CNC mechanism",
-        "Implemented stepper motor control for precise movement",
-        "Created a user-friendly interface for machine operation",
-        "Achieved 80% reduction in manual painting effort"
+        "Hosted and managed events for the campus community",
+        "Organized Robotics workshops at Avantika University",
+        "Facilitated communication between students and TechFest organizers to address queries and participation",
       ],
-      company: "College Project",
+      company: "TechFest, IIT Bombay",
       location: "Mumbai",
-      duration: "Jan 2024 - Present",
-      skills: ["Arduino", "CNC", "Stepper Motors", "Gear Mechanism"]
+      duration: "Aug 2024 - jnuary 2025",
+      skills: [ "Event Promotion",
+    "Public Speaking",
+    "Social Media Management",
+    "Networking",
+    "Leadership",
+    "Team Coordination" ]
     },
     {
       id: 2,
-      title: "Smart Medicine Box",
+      title: "MSME Presentation",
       description: [
-        "Built an IoT-based medicine reminder system",
-        "Integrated ESP32 for wireless connectivity",
-        "Developed mobile app interface for medication scheduling",
-        "Implemented alert system with LED and buzzer indicators"
+        "Presented the Smart Medicine Box project to MSME officials, highlighting its impact on healthcare",
+        "Explained the technical aspects, including ESP32-based automation and real-time alerts",
+        "Demonstrated the working model and its benefits for elderly and chronically ill patients",
+        "Received valuable feedback and explored potential funding and collaboration opportunities"
       ],
-      company: "Personal Project",
-      location: "Mumbai",
-      duration: "Oct 2023 - Dec 2023",
-      skills: ["ESP32", "IoT", "Arduino", "Mobile App Development"]
-    },
-    {
-      id: 3,
-      title: "Wave Mouse",
-      description: [
-        "Created a hands-free computer mouse using gyroscope sensors",
-        "Implemented gesture recognition algorithms",
-        "Designed ergonomic housing using 3D printing",
-        "Achieved 90% accuracy in cursor control"
-      ],
-      company: "College Project",
-      location: "Mumbai",
-      duration: "Jun 2023 - Sep 2023",
-      skills: ["Arduino Pro Micro", "Gyroscope", "3D Printing", "C++"]
+      company: "MSME (Micro, Small & Medium Enterprises)",
+      location: "Avantika University, Ujjain",
+      duration: "March 2024",
+      skills: ["Technical Presentation",
+                "Product Demonstration",
+                "Embedded Systems",
+                "IoT in Healthcare",
+                "Communication",
+                "Stakeholder Engagement",
+                "Problem-Solving"]
     }
   ];
 

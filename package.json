@@ -1,10 +1,13 @@
 {
+  "homepage": "https://SambhavJain-JS.github.io/Portfolio-Self",
   "name": "port3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
