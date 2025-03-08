@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Skills from './Components/Skills';
@@ -29,12 +29,9 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter future={{ 
-      v7_startTransition: true,
-      v7_relativeSplatPath: true
-    }}>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
