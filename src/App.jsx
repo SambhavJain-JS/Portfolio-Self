@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Skills from './Components/Skills';
@@ -10,7 +10,7 @@ import './App.css';
 
 function AppContent() {
   const location = useLocation();
-  
+
   return (
     <div className="bg-gray-900 min-h-screen">
       <Navbar />
@@ -29,9 +29,12 @@ function AppContent() {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter future={{ 
+      v7_startTransition: true,
+      v7_relativeSplatPath: true
+    }}>
       <AppContent />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
