@@ -8,6 +8,7 @@ import Certificate from './Components/Certificate';
 import Footer from './Components/Footer';
 import './App.css';
 
+
 function AppContent() {
   const location = useLocation();
 
