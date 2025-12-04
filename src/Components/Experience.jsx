@@ -5,41 +5,40 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Campus Ambassador",
+      title: "Lead Robotics Club",
       description: [
-        "Hosted and managed events for the campus community",
-        "Organized Robotics workshops at Avantika University",
-        "Facilitated communication between students and TechFest organizers to address queries and participation",
+        "Led a team of 8 members in designing and developing autonomous robots for educational and research purposes",
+        "Organized hands-on workshops to train junior members in microcontroller programming, ESP32 development, and sensor integration",
+        "Cultivated a collaborative learning environment by guiding peers through complex robotics applications.",
       ],
-      company: "TechFest, IIT Bombay",
-      location: "Mumbai",
-      duration: "Aug 2024 - jnuary 2025",
+      company: "Avantika University",
+      location: "Ujjain",
+      duration: "March 2025 - Present",
       skills: [ "Event Promotion",
     "Public Speaking",
-    "Social Media Management",
+    "Event Management",
     "Networking",
     "Leadership",
     "Team Coordination" ]
     },
     {
       id: 2,
-      title: "MSME Presentation",
+      title: "Organizer - Robotics Workshop",
       description: [
         "Presented the Smart Medicine Box project to MSME officials, highlighting its impact on healthcare",
         "Explained the technical aspects, including ESP32-based automation and real-time alerts",
         "Demonstrated the working model and its benefits for elderly and chronically ill patients",
         "Received valuable feedback and explored potential funding and collaboration opportunities"
       ],
-      company: "MSME (Micro, Small & Medium Enterprises)",
+      company: "TechFest IITB",
       location: "Avantika University, Ujjain",
-      duration: "March 2024",
+      duration: "Oct 2024",
       skills: ["Technical Presentation",
-                "Product Demonstration",
-                "Embedded Systems",
-                "IoT in Healthcare",
+                "Event Promotion",
+                "Social Media Management",
+                "Team Coordination",
                 "Communication",
-                "Stakeholder Engagement",
-                "Problem-Solving"]
+                "Stakeholder Engagement"]
     }
   ];
 
