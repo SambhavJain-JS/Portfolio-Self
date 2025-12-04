@@ -176,7 +176,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center justify-end gap-8 pt-6 border-t border-gray-800">
+                {/* <div className="flex items-center justify-end gap-8 pt-6 border-t border-gray-800">
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-3 group/link">
                     <FaGithub className="text-2xl group-hover/link:text-blue-400" />
                     <span className="text-sm font-medium">Code</span>
@@ -185,7 +185,7 @@ export default function Projects() {
                     <FaExternalLinkAlt className="text-xl group-hover/link:text-blue-400" />
                     <span className="text-sm font-medium">Demo</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
