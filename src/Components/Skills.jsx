@@ -12,6 +12,11 @@ import { TbRobot } from "react-icons/tb";
 import { FaLayerGroup } from "react-icons/fa";
 import { FcElectricalSensor } from "react-icons/fc";
 import SkillCard from "./SkillCard";
+import { SiLinux, SiOpencv, SiBaidu, SiRos, SiFirebase } from "react-icons/si";
+import { MdDashboard } from "react-icons/md";
+import { GiLed } from "react-icons/gi";
+import { TbTopologyStar3 } from "react-icons/tb";
+
 
 export default function Skills() {
   return (
@@ -54,12 +59,13 @@ export default function Skills() {
               </h2>
               <div className="grid grid-cols-2 gap-6">
                 <SkillCard icon={<FaRobot />} name="IoT Systems Design" level="Advanced" />
+                <SkillCard icon={<SiRos />} name="ROS2" level="Intermidiate" />
                 <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Advanced" />
                 <SkillCard icon={<FaServer />} name="Embedded Systems" level="Advanced" />
                 <SkillCard icon={<FaFileCode />} name="Microcontroller Programming" level="Intermidiate" />
                 <SkillCard icon={<FcElectricalSensor />} name="Sensor Integration" level="Intermidiate" />
                 <SkillCard icon={<GiCircuitry />} name="Circuit Design" level="Intermidiate" />
-                <SkillCard icon={<GiGears />} name="Motor Control (DC, Servo, L298N)" level="Intermidiate" />
+                <SkillCard icon={<GiGears />} name="Motor Control" level="Intermidiate" />
                 <SkillCard icon={<PiCircuitryFill />} name="Prototyping & Soldering" level="Intermidiate" />
                 <SkillCard icon={<TbRobot />} name="Robotics" level="Intermidiate" />
                 <SkillCard icon={<FaLayerGroup  />} name="OOP Concepts" level="Intermidiate" />
@@ -75,17 +81,31 @@ export default function Skills() {
               </span>
               Tools & Technologies
             </h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <SkillCard icon={<SiArduino />} name="Arduino IDE" level="Advanced" />
-              <SkillCard icon={<FaCode />} name="PlatformIO" level="Advanced" />
-              <SkillCard icon={<IoHardwareChip />} name="RFID Sensors" level="Advanced" />
-              <SkillCard icon={<FaMicrochip />} name="HC-05 Module" level="Advanced" />
-              <SkillCard icon={<FaTools />} name="L298 Driver" level="Advanced" />
-              <SkillCard icon={<MdDeveloperBoard />} name="I2C LCD" level="Advanced" />
-              <SkillCard icon={<SiGit />} name="Git" level="Intermediate" />
-              <SkillCard icon={<SiAutodesk />} name="Fusion360" level="Intermediate" />
-              <SkillCard icon={<FaCode />} name="NeoPixel LEDs" level="Advanced" />
-            </div>
+           <div className="grid md:grid-cols-3 gap-6">
+  <SkillCard icon={<SiArduino />} name="Arduino IDE" level="Advanced" />
+
+  {/* Proper Blynk icon alternative */}
+  <SkillCard icon={<MdDashboard />} name="Blynk (IoT Dashboards)" level="Advanced" />
+
+  {/* Use correct Firebase icon */}
+  <SkillCard icon={<SiFirebase />} name="Firebase" level="Intermediate" />
+
+  <SkillCard icon={<SiGit />} name="Git & GitHub" level="Intermediate" />
+
+  <SkillCard icon={<SiAutodesk />} name="Fusion360" level="Intermediate" />
+
+  {/* Better SolidWorks placeholder */}
+  <SkillCard icon={<GiGears />} name="SolidWorks" level="Intermediate" />
+
+  {/* Proper LED icon */}
+  <SkillCard icon={<GiLed />} name="NeoPixel LEDs" level="Advanced" />
+
+  {/* New additions */}
+  <SkillCard icon={<SiLinux />} name="Linux" level="Intermediate" />
+  <SkillCard icon={<SiOpencv />} name="OpenCV" level="Beginner" />
+  <SkillCard icon={<TbTopologyStar3 />} name="MQTT" level="Intermediate" />
+</div>
+
           </div>
         </div>
       </div>
