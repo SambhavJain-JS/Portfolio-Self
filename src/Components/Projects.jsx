@@ -100,8 +100,26 @@ export default function Projects() {
         title: "Student Activity Tracker",
         description: " Designed a database management system for tracking student activities and performance.",
         image: dbms,
-        technologies: ["MySQL", "PHP", "DBMS"],
+        technologies: ["MySQL", "Python", "DBMS"],
         category: "dbms",
+        githubLink: "#",
+        liveLink: "#"
+    },
+    {
+        title: "Spot Robot",
+        description: " Designed a quadruped Spot-style robot in SolidWorks, including full mechanical structure, sensor mounts, and CAD assemblies.",
+        image: dbms,
+        technologies: ["SolidWorks", "CAD", "Mechanical Design"],
+        category: "embedded-iot",
+        githubLink: "#",
+        liveLink: "#"
+    },
+    {
+        title: "Obstacle Avoiding Robot with Telematics",
+        description: "Built an intelligent robot using ESP32 that avoids obstacles autonomously and sends real-time temperature and humidity data through a web dashboard. Integrated ultrasonic sensing, motor control, and telematics features using ESP32 and L298N.",
+        image: dbms,
+        technologies: ["ESP32", "L298N", "Ultrasonic Sensor", "DHT11", "IoT"],
+        category: "embedded-iot",
         githubLink: "#",
         liveLink: "#"
     }
