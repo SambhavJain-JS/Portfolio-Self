@@ -17,6 +17,8 @@ import { MdDashboard } from "react-icons/md";
 import { GiLed } from "react-icons/gi";
 import { TbTopologyStar3 } from "react-icons/tb";
 import { TbCube } from "react-icons/tb";
+import { SiMysql } from "react-icons/si";
+
 
 
 export default function Skills() {
@@ -92,6 +94,7 @@ export default function Skills() {
               <SkillCard icon={<TbCube />} name="SolidWorks" level="Intermediate" />
               <SkillCard icon={<SiLinux />} name="Linux" level="Intermediate" />
               <SkillCard icon={<SiOpencv />} name="OpenCV" level="Beginner" />
+              <SkillCard icon={<SiMysql />} name="MySQL (DBMS)" level="Intermediate" />
             </div>
           </div>
         </div>
