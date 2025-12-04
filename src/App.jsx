@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Skills from './Components/Skills';
@@ -7,7 +7,6 @@ import Experience from './Components/Experience';
 import Certificate from './Components/Certificate';
 import Footer from './Components/Footer';
 import './App.css';
-
 
 function AppContent() {
   const location = useLocation();
@@ -28,15 +27,11 @@ function AppContent() {
   );
 }
 
-
 function App() {
   return (
-    <BrowserRouter future={{ 
-      v7_startTransition: true,
-      v7_relativeSplatPath: true
-    }}>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
