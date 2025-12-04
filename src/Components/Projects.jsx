@@ -97,15 +97,6 @@ export default function Projects() {
         liveLink: "#"
     },
     {
-        title: "Portfolio Website",
-        description: "Developed a personal portfolio website showcasing projects and technical expertise.",
-        image: portImage,
-        technologies: ["React", "Tailwind CSS", "JavaScript"],
-        category: "web-app",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
         title: "Student Activity Tracker",
         description: " Designed a database management system for tracking student activities and performance.",
         image: dbms,
