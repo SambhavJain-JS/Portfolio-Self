@@ -7,7 +7,7 @@ import { FaReact } from "react-icons/fa6";
 import { FaFileCode } from "react-icons/fa6";
 import { GiCircuitry } from "react-icons/gi";
 import { GiGears } from "react-icons/gi";
-import { RiSolderingIronLine } from "react-icons/ri";
+import { PiCircuitryFill } from "react-icons/pi";
 import { TbRobot } from "react-icons/tb";
 import { FaLayerGroup } from "react-icons/fa";
 import { FcElectricalSensor } from "react-icons/fc";
@@ -60,7 +60,7 @@ export default function Skills() {
                 <SkillCard icon={<FcElectricalSensor />} name="Sensor Integration" level="Intermidiate" />
                 <SkillCard icon={<GiCircuitry />} name="Circuit Design & Prototyping" level="Intermidiate" />
                 <SkillCard icon={<GiGears />} name="Motor Control (DC, Servo, L298N)" level="Intermidiate" />
-                <SkillCard icon={<RiSolderingIronLine />} name="PCB Design & Soldering" level="Intermidiate" />
+                <SkillCard icon={<PiCircuitryFill />} name="PCB Design & Soldering" level="Intermidiate" />
                 <SkillCard icon={<TbRobot />} name="Robotics" level="Intermidiate" />
                 <SkillCard icon={<FaLayerGroup  />} name="OOP Concepts" level="Intermidiate" />
                 <SkillCard icon={<FaCode />} name="DSA" level="Intermidiate" />
