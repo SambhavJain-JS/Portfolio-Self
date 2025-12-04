@@ -16,6 +16,7 @@ import { SiLinux, SiOpencv, SiBaidu, SiRos, SiFirebase } from "react-icons/si";
 import { MdDashboard } from "react-icons/md";
 import { GiLed } from "react-icons/gi";
 import { TbTopologyStar3 } from "react-icons/tb";
+import { TbCube } from "react-icons/tb";
 
 
 export default function Skills() {
@@ -82,30 +83,16 @@ export default function Skills() {
               Tools & Technologies
             </h2>
            <div className="grid md:grid-cols-3 gap-6">
-  <SkillCard icon={<SiArduino />} name="Arduino IDE" level="Advanced" />
-
-  {/* Proper Blynk icon alternative */}
-  <SkillCard icon={<MdDashboard />} name="Blynk (IoT Dashboards)" level="Advanced" />
-
-  {/* Use correct Firebase icon */}
-  <SkillCard icon={<SiFirebase />} name="Firebase" level="Intermediate" />
-
-  <SkillCard icon={<SiGit />} name="Git & GitHub" level="Intermediate" />
-
-  <SkillCard icon={<SiAutodesk />} name="Fusion360" level="Intermediate" />
-
-  {/* Better SolidWorks placeholder */}
-  <SkillCard icon={<GiGears />} name="SolidWorks" level="Intermediate" />
-
-  {/* Proper LED icon */}
-  <SkillCard icon={<GiLed />} name="NeoPixel LEDs" level="Advanced" />
-
-  {/* New additions */}
-  <SkillCard icon={<SiLinux />} name="Linux" level="Intermediate" />
-  <SkillCard icon={<SiOpencv />} name="OpenCV" level="Beginner" />
-  <SkillCard icon={<TbTopologyStar3 />} name="MQTT" level="Intermediate" />
-</div>
-
+              <SkillCard icon={<SiArduino />} name="Arduino IDE" level="Advanced" />
+              <SkillCard icon={<MdDashboard />} name="Blynk (IoT Dashboards)" level="Advanced" />
+              <SkillCard icon={<SiFirebase />} name="Firebase" level="Intermediate" />
+              <SkillCard icon={<SiGit />} name="Git & GitHub" level="Intermediate" />
+              <SkillCard icon={<SiAutodesk />} name="Fusion360" level="Intermediate" />
+              <SkillCard icon={<SiAutodesk />} name="Solidworks" level="Intermediate" />
+              <SkillCard icon={<TbCube />} name="SolidWorks" level="Intermediate" />
+              <SkillCard icon={<SiLinux />} name="Linux" level="Intermediate" />
+              <SkillCard icon={<SiOpencv />} name="OpenCV" level="Beginner" />
+            </div>
           </div>
         </div>
       </div>
