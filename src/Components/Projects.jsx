@@ -4,7 +4,7 @@ import linecarImage from '../Images/linecar.jpeg';
 import plantImage from '../Images/plant.jpg';
 import portImage from '../Images/port.png';
 import dbms from '../Images/dbms.png';
-import app from '../Images/app.jpg';
+import ma from '../Images/ma1.png';
 import wave from '../Images/wave.png';
 import box from '../Images/box.png';
 import wall from '../Images/wall.png';
