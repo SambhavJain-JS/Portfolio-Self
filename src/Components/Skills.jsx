@@ -3,6 +3,14 @@ import { FaServer, FaRobot, FaCode, FaMicrochip, FaTools, FaLaptopCode } from "r
 import { SiCplusplus, SiPython, SiArduino, SiEspressif, SiGit, SiAutodesk } from "react-icons/si";
 import { IoHardwareChip } from "react-icons/io5";
 import { MdDeveloperBoard } from "react-icons/md";
+import { FaReact } from "react-icons/fa6";
+import { FaFileCode } from "react-icons/fa6";
+import { GiCircuitry } from "react-icons/gi";
+import { GiGears } from "react-icons/gi";
+import { RiSolderingIronLine } from "react-icons/ri";
+import { TbRobot } from "react-icons/tb";
+import { FaLayerGroup } from "react-icons/fa";
+import { FcElectricalSensor } from "react-icons/fc";
 import SkillCard from "./SkillCard";
 
 export default function Skills() {
@@ -30,10 +38,10 @@ export default function Skills() {
               <div className="grid grid-cols-2 gap-6">
                 <SkillCard icon={<SiCplusplus />} name="C++" level="Advanced" />
                 <SkillCard icon={<SiPython />} name="Python" level="Advanced" />
-                <SkillCard icon={<FaCode />} name="HTML & CSS" level="Intermediate" />
                 <SkillCard icon={<SiArduino />} name="Arduino" level="Advanced" />
                 <SkillCard icon={<SiEspressif />} name="ESP32" level="Advanced" />
-                <SkillCard icon={<IoHardwareChip />} name="Embedded C" level="Advanced" />
+                <SkillCard icon={<FaCode />} name="HTML & CSS" level="Intermediate" />
+                <SkillCard icon={<FaReact />} name="React.js" level="Intermediate" />
               </div>
             </div>
 
@@ -45,9 +53,16 @@ export default function Skills() {
                 Core Skills
               </h2>
               <div className="grid grid-cols-2 gap-6">
-                <SkillCard icon={<FaRobot />} name="IoT Systems" level="Advanced" />
+                <SkillCard icon={<FaRobot />} name="IoT Systems Design" level="Advanced" />
                 <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Advanced" />
                 <SkillCard icon={<FaServer />} name="Embedded Systems" level="Advanced" />
+                <SkillCard icon={<FaFileCode />} name="Microcontroller Programming (ESP32, Arduino)" level="Intermidiate" />
+                <SkillCard icon={<FcElectricalSensor />} name="Sensor Integration" level="Intermidiate" />
+                <SkillCard icon={<GiCircuitry />} name="Circuit Design & Prototyping" level="Intermidiate" />
+                <SkillCard icon={<GiGears />} name="Motor Control (DC, Servo, L298N)" level="Intermidiate" />
+                <SkillCard icon={<RiSolderingIronLine />} name="PCB Design & Soldering" level="Intermidiate" />
+                <SkillCard icon={<TbRobot />} name="Robotics" level="Intermidiate" />
+                <SkillCard icon={<FaLayerGroup  />} name="OOP Concepts" level="Intermidiate" />
                 <SkillCard icon={<FaCode />} name="DSA" level="Intermidiate" />
               </div>
             </div>
