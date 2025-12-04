@@ -56,11 +56,11 @@ export default function Skills() {
                 <SkillCard icon={<FaRobot />} name="IoT Systems Design" level="Advanced" />
                 <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Advanced" />
                 <SkillCard icon={<FaServer />} name="Embedded Systems" level="Advanced" />
-                <SkillCard icon={<FaFileCode />} name="Microcontroller Programming (ESP32, Arduino)" level="Intermidiate" />
+                <SkillCard icon={<FaFileCode />} name="Microcontroller Programming" level="Intermidiate" />
                 <SkillCard icon={<FcElectricalSensor />} name="Sensor Integration" level="Intermidiate" />
-                <SkillCard icon={<GiCircuitry />} name="Circuit Design & Prototyping" level="Intermidiate" />
+                <SkillCard icon={<GiCircuitry />} name="Circuit Design" level="Intermidiate" />
                 <SkillCard icon={<GiGears />} name="Motor Control (DC, Servo, L298N)" level="Intermidiate" />
-                <SkillCard icon={<PiCircuitryFill />} name="PCB Design & Soldering" level="Intermidiate" />
+                <SkillCard icon={<PiCircuitryFill />} name="Prototyping & Soldering" level="Intermidiate" />
                 <SkillCard icon={<TbRobot />} name="Robotics" level="Intermidiate" />
                 <SkillCard icon={<FaLayerGroup  />} name="OOP Concepts" level="Intermidiate" />
                 <SkillCard icon={<FaCode />} name="DSA" level="Intermidiate" />
