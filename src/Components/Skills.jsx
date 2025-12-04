@@ -31,7 +31,7 @@ export default function Skills() {
               Technical Expertise
             </h1>
             <p className="text-gray-400 text-lg md:text-xl">
-              Specialized in Embedded Systems & IoT Development
+              Designing Intelligent Systems with Embedded, IoT, Robotics, and Software Development Expertise
             </p>
           </div>
 
@@ -65,12 +65,10 @@ export default function Skills() {
                 <SkillCard icon={<FaRobot />} name="IoT Systems Design" level="Advanced" />
                 <SkillCard icon={<SiRos />} name="ROS2" level="Intermidiate" />
                 <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Advanced" />
-                <SkillCard icon={<FaServer />} name="Embedded Systems" level="Advanced" />
                 <SkillCard icon={<FcElectricalSensor />} name="Sensor Integration" level="Intermidiate" />
                 <SkillCard icon={<GiCircuitry />} name="Circuit Design" level="Intermidiate" />
                 <SkillCard icon={<GiGears />} name="Motor Control" level="Intermidiate" />
                 <SkillCard icon={<PiCircuitryFill />} name="Prototyping & Soldering" level="Intermidiate" />
-                <SkillCard icon={<TbRobot />} name="Robotics" level="Intermidiate" />
                 <SkillCard icon={<FaLayerGroup  />} name="OOP Concepts" level="Intermidiate" />
                 <SkillCard icon={<FaCode />} name="DSA" level="Intermidiate" />
               </div>
@@ -90,7 +88,6 @@ export default function Skills() {
               <SkillCard icon={<SiFirebase />} name="Firebase" level="Intermediate" />
               <SkillCard icon={<SiGit />} name="Git & GitHub" level="Intermediate" />
               <SkillCard icon={<SiAutodesk />} name="Fusion360" level="Intermediate" />
-              <SkillCard icon={<SiAutodesk />} name="Solidworks" level="Intermediate" />
               <SkillCard icon={<TbCube />} name="SolidWorks" level="Intermediate" />
               <SkillCard icon={<SiLinux />} name="Linux" level="Intermediate" />
               <SkillCard icon={<SiOpencv />} name="OpenCV" level="Beginner" />
