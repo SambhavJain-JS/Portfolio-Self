@@ -133,7 +133,7 @@ export default function Certificate() {
                 </div>
 
                 {/* Credential Link */}
-                <div className="flex justify-between items-center pt-4 border-t border-gray-800">
+                {/* <div className="flex justify-between items-center pt-4 border-t border-gray-800">
                   <span className="text-gray-500 text-sm font-medium">
                   </span>
                   <a
@@ -143,7 +143,7 @@ export default function Certificate() {
                     View Credential
                     <FaExternalLinkAlt className="text-xs group-hover/link:translate-x-1 transition-transform duration-300" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
