@@ -16,6 +16,15 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "Admission Assitant Robot",
+      description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
+      image: wall,
+      technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
+      category: "embedded-iot",
+      githubLink: "#",
+      liveLink: "#"
+    },
+    {
       title: "Wall Painting Machine",
       description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
       image: wall,
