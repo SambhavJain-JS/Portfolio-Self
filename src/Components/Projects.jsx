@@ -36,7 +36,7 @@ export default function Projects() {
     {
       title: "Retail Shop Management App",
       description: "Developed a mobile app for retail shop owners to manage inventory and sales efficiently.",
-      image: app,
+      image: ma1,
       technologies: ["Flutter", "Firebase"],
       category: "mobile-app",
       githubLink: "#",
