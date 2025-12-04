@@ -50,6 +50,7 @@ export default function Skills() {
                 <SkillCard icon={<SiEspressif />} name="ESP32" level="Advanced" />
                 <SkillCard icon={<FaCode />} name="HTML & CSS" level="Intermediate" />
                 <SkillCard icon={<FaReact />} name="React.js" level="Intermediate" />
+                <SkillCard icon={<FaFileCode />} name="Microcontroller Programming" level="Intermidiate" />
               </div>
             </div>
 
@@ -65,7 +66,6 @@ export default function Skills() {
                 <SkillCard icon={<SiRos />} name="ROS2" level="Intermidiate" />
                 <SkillCard icon={<MdDeveloperBoard />} name="Digital Electronics" level="Advanced" />
                 <SkillCard icon={<FaServer />} name="Embedded Systems" level="Advanced" />
-                <SkillCard icon={<FaFileCode />} name="Microcontroller Programming" level="Intermidiate" />
                 <SkillCard icon={<FcElectricalSensor />} name="Sensor Integration" level="Intermidiate" />
                 <SkillCard icon={<GiCircuitry />} name="Circuit Design" level="Intermidiate" />
                 <SkillCard icon={<GiGears />} name="Motor Control" level="Intermidiate" />
