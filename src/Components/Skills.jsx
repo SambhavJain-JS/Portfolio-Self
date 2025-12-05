@@ -32,7 +32,7 @@ export default function Skills() {
               Technical Expertise
             </h1>
             <p className="text-gray-400 text-lg md:text-xl">
-              Designing Intelligent Systems with Embedded, IoT, Robotics, and Software Development Expertise
+              Developing end-to-end Intelligent Systems across Embedded Systems, IoT, Robotics, AI/ML, and Software Engineering.
             </p>
           </div>
 
