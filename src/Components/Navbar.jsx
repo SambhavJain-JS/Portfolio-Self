@@ -20,8 +20,10 @@ const Navbar = () => {
     <nav className="sticky top-0 bg-gray-900/80 backdrop-blur-lg border-b border-gray-800 z-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-20">
-          <Link className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-300">
+          <Link 
             to="/"
+            className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-300"
+            >
             Sambhav Jain
           </Link>
         
