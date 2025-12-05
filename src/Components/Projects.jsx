@@ -20,7 +20,7 @@ export default function Projects() {
       description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
       image: wall,
       technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
-      category: "embedded-iot",
+      category: "Robotics/IoT",
       githubLink: "#",
       liveLink: "#"
     },
@@ -29,7 +29,7 @@ export default function Projects() {
       description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
       image: wall,
       technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
-      category: "embedded-iot",
+      category: "Robotics/IoT",
       githubLink: "#",
       liveLink: "#"
     },
@@ -38,7 +38,7 @@ export default function Projects() {
       description: "Developed a mobile app for retail shop owners to manage inventory and sales efficiently.",
       image: ma1,
       technologies: ["Flutter", "Firebase"],
-      category: "mobile-app",
+      category: "Software Application",
       githubLink: "#",
       liveLink: "#"
   },
@@ -47,7 +47,7 @@ export default function Projects() {
         description: "Designed an LED matrix display using shift registers and Arduino, capable of displaying custom patterns.",
         image: dis,
         technologies: ["Arduino", "Shift Registers"],
-        category: "embedded-iot",
+        category: "Robotics/IoT",
         githubLink: "#",
         liveLink: "#"
     },
@@ -56,7 +56,7 @@ export default function Projects() {
         description: "Built a medicine reminder system with alerts using Arduino/ESP32 for elderly users.",
         image: box,
         technologies: ["Arduino", "ESP32", "Buzzer", "LEDs"],
-        category: "embedded-iot",
+        category: "Robotics/IoT",
         githubLink: "#",
         liveLink: "#"
     },
@@ -65,7 +65,7 @@ export default function Projects() {
         description: "Designed an autonomous robot that follows a predefined path using IR sensors.",
         image: linecarImage,
         technologies: ["Arduino", "IR Sensors", "Motors"],
-        category: "embedded-iot",
+        category: "Robotics/IoT",
         githubLink: "#",
         liveLink: "#"
     },
@@ -74,7 +74,7 @@ export default function Projects() {
         description: "Developed a hands-free mouse using gyroscope sensors and Arduino Pro Micro for accessibility.",
         image: wave,
         technologies: ["Arduino Pro Micro", "Gyroscope Sensor"],
-        category: "embedded-iot",
+        category: "Robotics/IoT",
         githubLink: "#",
         liveLink: "#"
     },
@@ -83,7 +83,7 @@ export default function Projects() {
       description: "Created a Bluetooth-controlled LED panel using Arduino and NeoPixel, allowing dynamic text display.",
       image: led,
       technologies: ["Arduino", "NeoPixel", "HC-05"],
-      category: "embedded-iot",
+      category: "Robotics/IoT",
       githubLink: "#",
       liveLink: "#"
   },
@@ -92,7 +92,7 @@ export default function Projects() {
         description: "Created a web application for plant enthusiasts to track and get expert feedback on plant growth.",
         image: plantImage,
         technologies: ["HTML", "CSS", "JavaScript"],
-        category: "web-app",
+        category: "Software Application",
         githubLink: "#",
         liveLink: "#"
     },
@@ -101,7 +101,7 @@ export default function Projects() {
         description: " Designed a database management system for tracking student activities and performance.",
         image: dbms,
         technologies: ["MySQL", "Python", "DBMS"],
-        category: "dbms",
+        category: "Software Application",
         githubLink: "#",
         liveLink: "#"
     },
@@ -110,7 +110,7 @@ export default function Projects() {
         description: " Designed a quadruped Spot-style robot in SolidWorks, including full mechanical structure, sensor mounts, and CAD assemblies.",
         image: dbms,
         technologies: ["SolidWorks", "CAD", "Mechanical Design"],
-        category: "embedded-iot",
+        category: "Robotics/IoT",
         githubLink: "#",
         liveLink: "#"
     },
@@ -119,7 +119,7 @@ export default function Projects() {
         description: "Built an intelligent robot using ESP32 that avoids obstacles autonomously and sends real-time temperature and humidity data through a web dashboard. Integrated ultrasonic sensing, motor control, and telematics features using ESP32 and L298N.",
         image: dbms,
         technologies: ["ESP32", "L298N", "Ultrasonic Sensor", "DHT11", "IoT"],
-        category: "embedded-iot",
+        category: "Robotics/IoT",
         githubLink: "#",
         liveLink: "#"
     }
@@ -127,10 +127,8 @@ export default function Projects() {
 
   const categories = [
     { id: 'all', name: 'All Projects', icon: <FaFolderOpen /> },
-    { id: 'embedded-iot', name: 'Embedded Systems & IoT', icon: <FaMicrochip /> },
-    { id: 'web-app', name: 'Web Application', icon: <FaGlobe /> },
-    { id: 'dbms', name: 'DBMS', icon: <FaDatabase /> },
-    { id: 'mobile-app', name: 'Mobile App', icon: <FaMobileAlt /> }
+    { id: 'Robotics/IoT', name: 'Robotics/IoT', icon: <FaMicrochip /> },
+    { id: 'Software Application', name: 'Software Application', icon: <FaGlobe /> }
   ];
 
   const filteredProjects = activeFilter === 'all' 
