@@ -17,6 +17,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Admission Assitant Robot",
+      type: "Android App", 
       description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
       image: wall,
       technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
@@ -26,6 +27,7 @@ export default function Projects() {
     },
     {
       title: "Wall Painting Machine",
+      type: "Android App", 
       description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
       image: wall,
       technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
@@ -35,6 +37,7 @@ export default function Projects() {
     },
     {
       title: "Retail Shop Management App",
+      type: "Android App", 
       description: "Developed a mobile app for retail shop owners to manage inventory and sales efficiently.",
       image: ma1,
       technologies: ["Flutter", "Firebase"],
@@ -44,6 +47,7 @@ export default function Projects() {
   },
     {
         title: "8x8 LED Matrix Display",
+      type: "Android App", 
         description: "Designed an LED matrix display using shift registers and Arduino, capable of displaying custom patterns.",
         image: dis,
         technologies: ["Arduino", "Shift Registers"],
@@ -53,6 +57,7 @@ export default function Projects() {
     },
     {
         title: "Smart Medicine Box",
+      type: "Android App", 
         description: "Built a medicine reminder system with alerts using Arduino/ESP32 for elderly users.",
         image: box,
         technologies: ["Arduino", "ESP32", "Buzzer", "LEDs"],
@@ -62,6 +67,7 @@ export default function Projects() {
     },
     {
         title: "Line Following Bot",
+      type: "Android App", 
         description: "Designed an autonomous robot that follows a predefined path using IR sensors.",
         image: linecarImage,
         technologies: ["Arduino", "IR Sensors", "Motors"],
@@ -71,6 +77,7 @@ export default function Projects() {
     },
     {
         title: "Wave Mouse",
+      type: "Android App", 
         description: "Developed a hands-free mouse using gyroscope sensors and Arduino Pro Micro for accessibility.",
         image: wave,
         technologies: ["Arduino Pro Micro", "Gyroscope Sensor"],
@@ -80,6 +87,7 @@ export default function Projects() {
     },
     {
       title: "36x8 LED Display with Bluetooth",
+      type: "Android App", 
       description: "Created a Bluetooth-controlled LED panel using Arduino and NeoPixel, allowing dynamic text display.",
       image: led,
       technologies: ["Arduino", "NeoPixel", "HC-05"],
@@ -89,6 +97,7 @@ export default function Projects() {
   },
     {
         title: "Plant Growing Kit",
+      type: "Android App", 
         description: "Created a web application for plant enthusiasts to track and get expert feedback on plant growth.",
         image: plantImage,
         technologies: ["HTML", "CSS", "JavaScript"],
@@ -98,6 +107,7 @@ export default function Projects() {
     },
     {
         title: "Student Activity Tracker",
+      type: "Android App", 
         description: " Designed a database management system for tracking student activities and performance.",
         image: dbms,
         technologies: ["MySQL", "Python", "DBMS"],
@@ -107,6 +117,7 @@ export default function Projects() {
     },
     {
         title: "Spot Robot",
+      type: "Android App", 
         description: " Designed a quadruped Spot-style robot in SolidWorks, including full mechanical structure, sensor mounts, and CAD assemblies.",
         image: dbms,
         technologies: ["SolidWorks", "CAD", "Mechanical Design"],
@@ -116,6 +127,7 @@ export default function Projects() {
     },
     {
         title: "Obstacle Avoiding Robot with Telematics",
+      type: "Android App", 
         description: "Built an intelligent robot using ESP32 that avoids obstacles autonomously and sends real-time temperature and humidity data through a web dashboard. Integrated ultrasonic sensing, motor control, and telematics features using ESP32 and L298N.",
         image: dbms,
         technologies: ["ESP32", "L298N", "Ultrasonic Sensor", "DHT11", "IoT"],
@@ -181,6 +193,10 @@ export default function Projects() {
                 <h3 className="text-2xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-300">
                   {project.title}
                 </h3>
+                <p className="text-blue-400 text-sm font-medium tracking-wide">
+                  {project.type}
+                </p>
+
                 <p className="text-gray-400 text-base leading-relaxed">
                   {project.description}
                 </p>
