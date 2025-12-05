@@ -136,6 +136,11 @@ export default function Projects() {
   liveLink: "#"
 }
 ];
+const categories = [
+  { id: 'all', name: 'All Projects', icon: <FaFolderOpen /> },
+  { id: 'Robotics/IoT', name: 'Robotics/IoT', icon: <FaMicrochip /> },
+  { id: 'Software Application', name: 'Software Application', icon: <FaGlobe /> },
+];
 
   const filteredProjects = activeFilter === 'all' 
     ? projects 
