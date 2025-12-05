@@ -16,132 +16,126 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Admission Assitant Robot",
-      type: "Android App", 
-      description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
-      image: wall,
-      technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
-      category: "Robotics/IoT",
-      githubLink: "#",
-      liveLink: "#"
-    },
-    {
-      title: "Wall Painting Machine",
-      type: "Android App", 
-      description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
-      image: wall,
-      technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
-      category: "Robotics/IoT",
-      githubLink: "#",
-      liveLink: "#"
-    },
-    {
-      title: "Retail Shop Management App",
-      type: "Android App", 
-      description: "Developed a mobile app for retail shop owners to manage inventory and sales efficiently.",
-      image: ma1,
-      technologies: ["Flutter", "Firebase"],
-      category: "Software Application",
-      githubLink: "#",
-      liveLink: "#"
-  },
-    {
-        title: "8x8 LED Matrix Display",
-      type: "Android App", 
-        description: "Designed an LED matrix display using shift registers and Arduino, capable of displaying custom patterns.",
-        image: dis,
-        technologies: ["Arduino", "Shift Registers"],
-        category: "Robotics/IoT",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-        title: "Smart Medicine Box",
-      type: "Android App", 
-        description: "Built a medicine reminder system with alerts using Arduino/ESP32 for elderly users.",
-        image: box,
-        technologies: ["Arduino", "ESP32", "Buzzer", "LEDs"],
-        category: "Robotics/IoT",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-        title: "Line Following Bot",
-      type: "Android App", 
-        description: "Designed an autonomous robot that follows a predefined path using IR sensors.",
-        image: linecarImage,
-        technologies: ["Arduino", "IR Sensors", "Motors"],
-        category: "Robotics/IoT",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-        title: "Wave Mouse",
-      type: "Android App", 
-        description: "Developed a hands-free mouse using gyroscope sensors and Arduino Pro Micro for accessibility.",
-        image: wave,
-        technologies: ["Arduino Pro Micro", "Gyroscope Sensor"],
-        category: "Robotics/IoT",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-      title: "36x8 LED Display with Bluetooth",
-      type: "Android App", 
-      description: "Created a Bluetooth-controlled LED panel using Arduino and NeoPixel, allowing dynamic text display.",
-      image: led,
-      technologies: ["Arduino", "NeoPixel", "HC-05"],
-      category: "Robotics/IoT",
-      githubLink: "#",
-      liveLink: "#"
-  },
-    {
-        title: "Plant Growing Kit",
-      type: "Android App", 
-        description: "Created a web application for plant enthusiasts to track and get expert feedback on plant growth.",
-        image: plantImage,
-        technologies: ["HTML", "CSS", "JavaScript"],
-        category: "Software Application",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-        title: "Student Activity Tracker",
-      type: "Android App", 
-        description: " Designed a database management system for tracking student activities and performance.",
-        image: dbms,
-        technologies: ["MySQL", "Python", "DBMS"],
-        category: "Software Application",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-        title: "Spot Robot",
-      type: "Android App", 
-        description: " Designed a quadruped Spot-style robot in SolidWorks, including full mechanical structure, sensor mounts, and CAD assemblies.",
-        image: dbms,
-        technologies: ["SolidWorks", "CAD", "Mechanical Design"],
-        category: "Robotics/IoT",
-        githubLink: "#",
-        liveLink: "#"
-    },
-    {
-        title: "Obstacle Avoiding Robot with Telematics",
-      type: "Android App", 
-        description: "Built an intelligent robot using ESP32 that avoids obstacles autonomously and sends real-time temperature and humidity data through a web dashboard. Integrated ultrasonic sensing, motor control, and telematics features using ESP32 and L298N.",
-        image: dbms,
-        technologies: ["ESP32", "L298N", "Ultrasonic Sensor", "DHT11", "IoT"],
-        category: "Robotics/IoT",
-        githubLink: "#",
-        liveLink: "#"
-    }
+  title: "Admission Assitant Robot",
+  type: "Robotics Project",
+  description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
+  image: wall,
+  technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Wall Painting Machine",
+  type: "Mechatronics Project",
+  description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
+  image: wall,
+  technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Retail Shop Management App",
+  type: "Android App",
+  description: "Developed a mobile app for retail shop owners to manage inventory and sales efficiently.",
+  image: ma1,
+  technologies: ["Flutter", "Firebase"],
+  category: "Software Application",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "8x8 LED Matrix Display",
+  type: "Embedded System",
+  description: "Designed an LED matrix display using shift registers and Arduino, capable of displaying custom patterns.",
+  image: dis,
+  technologies: ["Arduino", "Shift Registers"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Smart Medicine Box",
+  type: "IoT Device",
+  description: "Built a medicine reminder system with alerts using Arduino/ESP32 for elderly users.",
+  image: box,
+  technologies: ["Arduino", "ESP32", "Buzzer", "LEDs"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Line Following Bot",
+  type: "Autonomous Robot",
+  description: "Designed an autonomous robot that follows a predefined path using IR sensors.",
+  image: linecarImage,
+  technologies: ["Arduino", "IR Sensors", "Motors"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Wave Mouse",
+  type: "Assistive Technology",
+  description: "Developed a hands-free mouse using gyroscope sensors and Arduino Pro Micro for accessibility.",
+  image: wave,
+  technologies: ["Arduino Pro Micro", "Gyroscope Sensor"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "36x8 LED Display with Bluetooth",
+  type: "IoT Display System",
+  description: "Created a Bluetooth-controlled LED panel using Arduino and NeoPixel, allowing dynamic text display.",
+  image: led,
+  technologies: ["Arduino", "NeoPixel", "HC-05"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Plant Growing Kit",
+  type: "Web Application",
+  description: "Created a web application for plant enthusiasts to track and get expert feedback on plant growth.",
+  image: plantImage,
+  technologies: ["HTML", "CSS", "JavaScript"],
+  category: "Software Application",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Student Activity Tracker",
+  type: "Database Project",
+  description: "Designed a database management system for tracking student activities and performance.",
+  image: dbms,
+  technologies: ["MySQL", "Python", "DBMS"],
+  category: "Software Application",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Spot Robot",
+  type: "Mechanical CAD Design",
+  description: "Designed a quadruped Spot-style robot in SolidWorks, including full mechanical structure, sensor mounts, and CAD assemblies.",
+  image: dbms,
+  technologies: ["SolidWorks", "CAD", "Mechanical Design"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+},
+{
+  title: "Obstacle Avoiding Robot with Telematics",
+  type: "IoT & Robotics Project",
+  description: "Built an intelligent robot using ESP32 that avoids obstacles autonomously and sends real-time temperature and humidity data through a web dashboard.",
+  image: dbms,
+  technologies: ["ESP32", "L298N", "Ultrasonic Sensor", "DHT11", "IoT"],
+  category: "Robotics/IoT",
+  githubLink: "#",
+  liveLink: "#"
+}
 ];
-
-  const categories = [
-    { id: 'all', name: 'All Projects', icon: <FaFolderOpen /> },
-    { id: 'Robotics/IoT', name: 'Robotics/IoT', icon: <FaMicrochip /> },
-    { id: 'Software Application', name: 'Software Application', icon: <FaGlobe /> }
-  ];
 
   const filteredProjects = activeFilter === 'all' 
     ? projects 
