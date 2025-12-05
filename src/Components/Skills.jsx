@@ -18,6 +18,7 @@ import { GiLed } from "react-icons/gi";
 import { TbTopologyStar3 } from "react-icons/tb";
 import { TbCube } from "react-icons/tb";
 import { SiMysql } from "react-icons/si";
+import { GiArtificialIntelligence } from "react-icons/gi";
 
 
 
@@ -71,6 +72,7 @@ export default function Skills() {
                 <SkillCard icon={<PiCircuitryFill />} name="Prototyping & Soldering" level="Intermidiate" />
                 <SkillCard icon={<FaLayerGroup  />} name="OOP Concepts" level="Intermidiate" />
                 <SkillCard icon={<FaCode />} name="DSA" level="Intermidiate" />
+                <SkillCard icon={<GiArtificialIntelligence  />} name="ML" level="Intermidiate" />
               </div>
             </div>
           </div>
