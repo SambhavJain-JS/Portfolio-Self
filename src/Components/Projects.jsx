@@ -193,7 +193,7 @@ export default function Projects() {
                 <h3 className="text-2xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-300">
                   {project.title}
                 </h3>
-                <p className="text-blue-400 text-sm font-medium tracking-wide">
+                <p className="text-slate-300 text-sm font-medium tracking-wide italic">
                   {project.type}
                 </p>
 
