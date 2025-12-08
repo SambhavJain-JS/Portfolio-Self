@@ -12,7 +12,7 @@ import led from '../Images/led.jpg';
 import dis from '../Images/dis.jpg';
 import addRobot from '../Images/addRobot.jpg';
 import plantWeb from '../Images/plantWeb.png';
-import plantWeb from '../Images/spotBot.png';
+import spotBot from '../Images/spotBot.png';
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
