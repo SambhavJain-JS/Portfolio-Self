@@ -12,6 +12,7 @@ import led from '../Images/led.jpg';
 import dis from '../Images/dis.jpg';
 import addRobot from '../Images/addRobot.jpg';
 import plantWeb from '../Images/plantWeb.png';
+import plantWeb from '../Images/spotBot.png';
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -22,17 +23,17 @@ export default function Projects() {
   type: "Robotics Project",
   description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
   image: addRobot,
-  technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
+  technologies: ["ESP32", "Camera Module", "Motor Driver", "I2C LCD Display", "DF Player"],
   category: "Robotics/IoT",
   githubLink: "#",
   liveLink: "#"
 },
 {
   title: "Wall Painting Machine",
-  type: "Mechatronics Project",
+  type: "Mechatronics",
   description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
   image: wall,
-  technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
+  technologies: ["Arduino", "Stepper Motors", "Lead Screws", "PID Control", "CNC Firmware", "Gear Mechanism"],
   category: "Robotics/IoT",
   githubLink: "#",
   liveLink: "#"
@@ -42,27 +43,27 @@ export default function Projects() {
   type: "Android App",
   description: "Developed a mobile app for retail shop owners to manage inventory and sales efficiently.",
   image: ma1,
-  technologies: ["Flutter", "Firebase"],
-  category: "Software Application",
+  technologies: ["Flutter", "SQLite"],
+  category: "Mobile Application",
   githubLink: "#",
   liveLink: "#"
 },
 {
   title: "8x8 LED Matrix Display",
   type: "Embedded System",
-  description: "Designed an LED matrix display using shift registers and Arduino, capable of displaying custom patterns.",
+  description: "An 8×8 LED matrix driven by shift registers with Arduino control. Supports custom animations, character scrolling.",
   image: dis,
-  technologies: ["Arduino", "Shift Registers"],
+  technologies: ["Arduino", "74HC595 Shift Registers","Transistors", "PCB Design"],
   category: "Robotics/IoT",
   githubLink: "#",
   liveLink: "#"
 },
 {
   title: "Smart Medicine Box",
-  type: "IoT Device",
-  description: "Built a medicine reminder system with alerts using Arduino/ESP32 for elderly users.",
+  type: "IoT Health Device",
+  description: "A pill reminder system that notifies users via buzzer, LED and mobile notifications. Tracks pill times and allows remote scheduling through a App dashboard.",
   image: box,
-  technologies: ["Arduino", "ESP32", "Buzzer", "LEDs"],
+  technologies: ["ESP32","RTC", "Buzzer", "LEDs","Blynk - Cloud", ],
   category: "Robotics/IoT",
   githubLink: "#",
   liveLink: "#"
@@ -79,7 +80,7 @@ export default function Projects() {
 },
 {
   title: "Wave Mouse",
-  type: "Assistive Technology",
+  type: "IoT",
   description: "Developed a hands-free mouse using gyroscope sensors and Arduino Pro Micro for accessibility.",
   image: wave,
   technologies: ["Arduino Pro Micro", "Gyroscope Sensor"],
@@ -90,9 +91,9 @@ export default function Projects() {
 {
   title: "36x8 LED Display with Bluetooth",
   type: "IoT Display System",
-  description: "Created a Bluetooth-controlled LED panel using Arduino and NeoPixel, allowing dynamic text display.",
+  description: "A LED panel that displays dynamic text and graphics received over Bluetooth. Includes a mobile app to update messages in real time.",
   image: led,
-  technologies: ["Arduino", "NeoPixel", "HC-05"],
+  technologies: ["ESP-32", "NeoPixel"],
   category: "Robotics/IoT",
   githubLink: "#",
   liveLink: "#"
@@ -110,9 +111,9 @@ export default function Projects() {
 {
   title: "Student Activity Tracker",
   type: "Database Project",
-  description: "Designed a database management system for tracking student activities and performance.",
+  description: "A database system to log student activities, events, and performance metrics with reporting dashboards for teachers and admins.",
   image: dbms,
-  technologies: ["MySQL", "Python", "DBMS"],
+  technologies: ["MySQL", "Python"],
   category: "Software Application",
   githubLink: "#",
   liveLink: "#"
@@ -121,7 +122,7 @@ export default function Projects() {
   title: "Spot Robot",
   type: "Mechanical CAD Design",
   description: "Designed a quadruped Spot-style robot in SolidWorks, including full mechanical structure, sensor mounts, and CAD assemblies.",
-  image: dbms,
+  image: spotBot,
   technologies: ["SolidWorks", "CAD", "Mechanical Design"],
   category: "Robotics/IoT",
   githubLink: "#",
@@ -129,7 +130,7 @@ export default function Projects() {
 },
 {
   title: "Obstacle Avoiding Robot with Telematics",
-  type: "IoT & Robotics Project",
+  type: "Autonomus Robot",
   description: "Built an intelligent robot using ESP32 that avoids obstacles autonomously and sends real-time temperature and humidity data through a web dashboard.",
   image: dbms,
   technologies: ["ESP32", "L298N", "Ultrasonic Sensor", "DHT11", "IoT"],
