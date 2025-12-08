@@ -10,6 +10,8 @@ import box from '../Images/box.png';
 import wall from '../Images/wall.png';
 import led from '../Images/led.jpg';
 import dis from '../Images/dis.jpg';
+import addRobot from '../Images/addRobot.jpg
+import plantWeb from '../Images/plantWeb.png
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -19,7 +21,7 @@ export default function Projects() {
   title: "Admission Assitant Robot",
   type: "Robotics Project",
   description: "Developed an automated wall painting machine that uses a robotic mechanism to paint surfaces efficiently, reducing manual effort.",
-  image: wall,
+  image: addRobot,
   technologies: ["Arduino","CNC", "Stepper Motors", "Gear Mechanism"],
   category: "Robotics/IoT",
   githubLink: "#",
