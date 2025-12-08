@@ -10,8 +10,8 @@ import box from '../Images/box.png';
 import wall from '../Images/wall.png';
 import led from '../Images/led.jpg';
 import dis from '../Images/dis.jpg';
-import addRobot from '../Images/addRobot.jpg
-import plantWeb from '../Images/plantWeb.png
+import addRobot from '../Images/addRobot.jpg;
+import plantWeb from '../Images/plantWeb.png;
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
