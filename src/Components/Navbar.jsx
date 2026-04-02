@@ -24,7 +24,7 @@ const Navbar = () => {
             to="/"
             className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:opacity-80 transition-opacity duration-300"
             >
-            Sambhav Jain
+            Ankit Maru
           </Link>
         
           <button
