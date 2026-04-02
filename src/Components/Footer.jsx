@@ -7,20 +7,17 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'GitHub',
-      // url: 'https://github.com/SambhavJain-JS',
-       url: ' ',
+      url: 'https://github.com/SambhavJain-JS',
       icon: <FaGithub className="text-xl" />
     },
     {
       name: 'LinkedIn',
-      // url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
-         url: ' ',
+      url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
       icon: <FaLinkedin className="text-xl" />
     },
     {
       name: 'Email',
-      // url: 'mailto:sambhav.jain@avantika.edu.in',
-         url: ' ',
+      url: 'mailto:sambhav.jain@avantika.edu.in',
       icon: <FaEnvelope className="text-xl" />
     }
   ];
@@ -32,7 +29,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Ankit Maru
+              Sambhav Jain
             </h3>
             <p className="text-gray-400 text-base leading-relaxed">
               Engineering student passionate about robotics, IoT, and innovative technology solutions
@@ -87,7 +84,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-gray-800 flex justify-center items-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2025 Ankit Maru. All rights reserved.
+            &copy; 2025 Sambhav Jain. All rights reserved.
           </p>
         </div>
 
