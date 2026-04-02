@@ -6,20 +6,17 @@ const Home = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      // url: 'https://github.com/SambhavJain-JS',
-       url: ' ',
+      url: 'https://github.com/SambhavJain-JS',
       icon: <FaGithub className="text-2xl" />
     },
     {
       name: 'LinkedIn',
-      // url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
-      url: ' ',
+      url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
       icon: <FaLinkedin className="text-2xl" />
     },
     {
       name: 'Email',
-      // url: 'mailto:sambhav.jain@avantika.edu.in',
-       url: ' ',
+      url: 'mailto:sambhav.jain@avantika.edu.in',
       icon: <FaEnvelope className="text-2xl" />
     }
   ];
@@ -51,7 +48,7 @@ const Home = () => {
             </h2>
             <h1 className="text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight shine-effect">
               <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent animate-gradient-x">
-                Ankit Maru
+                Sambhav Jain
               </span>
             </h1>
           </div>
