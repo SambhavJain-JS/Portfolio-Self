@@ -3,26 +3,26 @@ import { FaBriefcase } from "react-icons/fa";
 
 export default function Experience() {
   const experiences = [
+    // {
+    //   id: 1,
+    //   title: "Lead Robotics Club",
+    //   description: [
+    //     "Led a team of 8 members in designing and developing autonomous robots for educational and research purposes",
+    //     "Organized hands-on workshops to train junior members in microcontroller programming, ESP32 development, and sensor integration",
+    //     "Cultivated a collaborative learning environment by guiding peers through complex robotics applications.",
+    //   ],
+    //   company: "Avantika University",
+    //   location: "Ujjain",
+    //   duration: "March 2025 - Present",
+    //   skills: [ "Event Promotion",
+    // "Public Speaking",
+    // "Event Management",
+    // "Networking",
+    // "Leadership",
+    // "Team Coordination" ]
+    // },
     {
       id: 1,
-      title: "Lead Robotics Club",
-      description: [
-        "Led a team of 8 members in designing and developing autonomous robots for educational and research purposes",
-        "Organized hands-on workshops to train junior members in microcontroller programming, ESP32 development, and sensor integration",
-        "Cultivated a collaborative learning environment by guiding peers through complex robotics applications.",
-      ],
-      company: "Avantika University",
-      location: "Ujjain",
-      duration: "March 2025 - Present",
-      skills: [ "Event Promotion",
-    "Public Speaking",
-    "Event Management",
-    "Networking",
-    "Leadership",
-    "Team Coordination" ]
-    },
-    {
-      id: 2,
       title: "Organizer - Robotics Workshop",
       description: [
         "Presented the Smart Medicine Box project to MSME officials, highlighting its impact on healthcare",
