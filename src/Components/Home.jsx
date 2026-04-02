@@ -7,19 +7,19 @@ const Home = () => {
     {
       name: 'GitHub',
       // url: 'https://github.com/SambhavJain-JS',
-       url: ' '
+       url: ' ',
       icon: <FaGithub className="text-2xl" />
     },
     {
       name: 'LinkedIn',
       // url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
-      url: ' '
+      url: ' ',
       icon: <FaLinkedin className="text-2xl" />
     },
     {
       name: 'Email',
       // url: 'mailto:sambhav.jain@avantika.edu.in',
-       url: ' '
+       url: ' ',
       icon: <FaEnvelope className="text-2xl" />
     }
   ];
