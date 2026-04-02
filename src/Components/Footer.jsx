@@ -7,17 +7,20 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/SambhavJain-JS',
+      // url: 'https://github.com/SambhavJain-JS',
+       url: ' '
       icon: <FaGithub className="text-xl" />
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
+      // url: 'https://www.linkedin.com/in/sambhav-jain-sj0505',
+         url: ' '
       icon: <FaLinkedin className="text-xl" />
     },
     {
       name: 'Email',
-      url: 'mailto:sambhav.jain@avantika.edu.in',
+      // url: 'mailto:sambhav.jain@avantika.edu.in',
+         url: ' '
       icon: <FaEnvelope className="text-xl" />
     }
   ];
@@ -84,7 +87,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-gray-800 flex justify-center items-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2025 Sambhav Jain. All rights reserved.
+            &copy; 2025 Ankit Maru. All rights reserved.
           </p>
         </div>
 
